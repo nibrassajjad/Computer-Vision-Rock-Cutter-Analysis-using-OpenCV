@@ -27,7 +27,7 @@ This OpenCV (coded in C++) application provides an automated video analysis solu
 
 
 - **Outputs**  
-  1. The resampled frame is automatically stored as PNG with a timestamped name(possible as EPS if ImageMagick is installed in your system).
+  1. The resampled frame is automatically stored as PNG with a timestamped name (possible as EPS if ImageMagick is installed in your system).
   2. A textfile with the azimuth pick tip counts, x-coordinates and their heights above baseline. Estimmated cutting line distance in also provided.
 
   ![Capture](https://github.com/user-attachments/assets/4a3a4593-2df6-4f46-8a95-f98fd86955d5)
