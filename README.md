@@ -39,7 +39,7 @@ This OpenCV (coded in C++) application provides an automated video analysis solu
   4. Tune the brightness and binary threshold to your preference ensuring no noise contours forming in the video (suggested tuning is written on the console in video selection menu).
   5. After tuning wait for the whole video to run at least once to record contours from every frame.
   6. Click on the video 2-3 times to ensure the azimuth contour line on the resampled frame is consistent.
-  7. The measurement file and PNG file is exported in “Outputs” folder.
+  7. The measurement file and PNG file is exported in “Outputs” folder (folder will be automatically created if it doesn't exist in the application folder).
 
 ## 🛠️ Requirements for Code base (Debug)
 
