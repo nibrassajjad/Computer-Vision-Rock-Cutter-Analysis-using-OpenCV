@@ -31,3 +31,24 @@ This OpenCV (coded in C++) application provides an automated video analysis solu
   2. A textfile with the azimuth pick tip counts, x-coordinates and their heights above baseline. Estimmated cutting line distance in also provided.
 
   ![Capture](https://github.com/user-attachments/assets/4a3a4593-2df6-4f46-8a95-f98fd86955d5)
+
+## 🧪 How to Run
+  1. Download and extract the application folder
+  2. Open the file: /application/Rock Cutter Wear Estimation.exe
+  3. Choose the video number (0-2) you want and press enter (default is video_0.mp4)
+  4. Tune the brightness and binary threshold to your preference ensuring no noise contours forming in the video (suggested tuning is written on the console in video selection menu).
+  5. After tuning wait for the whole video to run at least once to record contours from every frame.
+  6. Click on the video 2-3 times to ensure the azimuth contour line on the resampled frame is consistent.
+  7. The measurement file and PNG file is exported in “Outputs” folder.
+
+## 🛠️ Requirements for Code base (Debug)
+
+- OpenCV (v4.x)
+- C++14 compatible compiler
+- ImageMagick (optional, for EPS export if used)
+
+# License
+This project is open-source and available under the MIT License.
+
+# Author notes
+If you liked this project, please leave a star! Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/nibras-sajjad/) if you would like to connect.
