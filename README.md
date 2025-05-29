@@ -23,6 +23,11 @@ This OpenCV (coded in C++) application provides an automated video analysis solu
   5. Visual triangles to point out picks that are in azimuth
   6. An estimated equidistant cutting line with their corresponding x-coordinates
 
+  ![video_0_1s](https://github.com/user-attachments/assets/a94411e0-9e91-4882-be64-cbf49b7f1442)
+
+
 - **Outputs**  
   1. The resampled frame is automatically stored as PNG with a timestamped name(possible as EPS if ImageMagick is installed in your system).
   2. A textfile with the azimuth pick tip counts, x-coordinates and their heights above baseline. Estimmated cutting line distance in also provided.
+
+  ![Capture](https://github.com/user-attachments/assets/4a3a4593-2df6-4f46-8a95-f98fd86955d5)
